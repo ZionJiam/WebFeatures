@@ -1,0 +1,123 @@
+
+
+.margin-auto{
+    margin:0 auto;
+    padding: 4rem;
+    max-width: 1400px;
+
+}
+
+.center-logo{
+    margin: auto;
+    text-align: center;
+    width: 210px;
+    margin-top: 0px;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    top: 0;     
+}
+
+.inline-nav{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    
+}
+
+.inline-nav a{
+    display: inline-block;
+    padding: 10px 40px;
+    color: #111;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-right: 1px solid #fff;
+}
+
+.inline-nav a:hover{
+    color:#f6303e;
+    border-bottom: solid 2.5px #f6303e;
+}
+
+.body-container{
+    background-color: white;
+}
+
+.nav-logo-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-container{
+    margin: 0 auto;
+    margin-top: 150px;
+    background: #f9f9f9;
+    font-size: 24px;
+    
+}
+
+
+.parallax{
+    background: url('../images/sp5.jpeg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.black-text{
+    color:black;
+}
+
+.blue-button{
+    color:white;
+    background-color: #f6303e;
+
+}
+
+.bold-white-text{
+    color: white !important;
+    font-size: bold !important;
+}
+
+
+
+@media screen and (max-width:715px){
+    .inline-nav a{
+        display: none;
+    }
+
+    .hamburger-icon{
+        display:initial !important;
+    }
+
+    .center-logo{
+        padding: 0;
+        float: right;
+    }
+
+    .center-logo img{
+        height: 40px;
+
+    }
+    .nav-logo-container{
+        padding: 1rem;
+    }
+    .content-container{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:715px){
+    
+
+}
